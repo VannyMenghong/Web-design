@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Rowdies&display=swap");
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.fix-test {
+  position: fixed;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+p {
+  font-size: 0.7em;
+}
+
+.service-title {
+  margin-top: 30px;
+}
+
+.service {
+  padding-bottom: 50px;
+}
+
+.facilitie {
+  padding-top: 50px;
+  padding-bottom: 40   px;
+}
+
+.facilitie img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.review-title {
+  margin-top: 30px;
+}
+
+.details {
+  line-height: 0px;
+}
+
+.profile {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.review-col {
+  padding: 10px;
+}
+
+.icon-review {
+  font-size: 40px;
+  margin-top: 12px;
+  color: grey;
+}
+
+.fa {
+  opacity: 0.8;
+}
+
+.go {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.go .go-top {
+  opacity: 0.7;
+}
+
+.go .go-top:hover {
+  opacity: 1;
+}
+
+.go .go-bottom {
+  opacity: 0.7;
+}
+
+.go .go-bottom:hover {
+  opacity: 1;
+}
+
+@media (max-width: 570px) {
+  .caption {
+    text-align: center;
+  }
+  h1 {
+    font-size: 25pt;
+  }
+  h4 {
+    font-size: 20pt;
+  }
+  button {
+    height: px;
+    width: 100px;
+  }
+  button p {
+    font-size: 10pt;
+  }
+}
+
+@media (max-width: 786px) {
+  .caption {
+    text-align: center;
+  }
+  h1 {
+    font-size: 30pt;
+  }
+  h4 {
+    font-size: 25pt;
+  }
+  button {
+    height: 20px;
+    width: 100px;
+  }
+  button p {
+    font-size: 13pt;
+  }
+}
+
+@media (max-width: 992px) {
+  button {
+    height: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  button {
+    height: 50px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
